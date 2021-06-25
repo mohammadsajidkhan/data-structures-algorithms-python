@@ -1,0 +1,16 @@
+#1. January - 2200
+#2. February- 2350
+#3. March   - 2600
+#4. April   - 2130
+#5. May     - 2190
+#6. June    - 1980
+
+lst=[2000,2350,2600,2130,2190]
+print("testing=",lst[0])
+print("Extra money spent in feb=",lst[1]-lst[0])
+print("first quarter total expense=",lst[0]+lst[1]+lst[2])
+print("Did spent 2000 in any month=",2000 in lst)
+lst.append(1980)	
+print("June expenses", lst[5])
+lst[3]+=200
+print("updated list=",lst[3])
